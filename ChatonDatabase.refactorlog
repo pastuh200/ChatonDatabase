@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="13b40a2d-fcbe-498f-b8ee-a834b3337168" ChangeDateTime="09/22/2025 17:26:02">
+    <Property Name="ElementName" Value="[dbo].[Users].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="firstName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8f3988c7-21be-4892-8120-0305ed32febf" ChangeDateTime="09/22/2025 20:48:02">
+    <Property Name="ElementName" Value="[dbo].[UserGroupRelation].[User_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGroupRelation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="da465e41-4c6d-468f-93aa-3a92029183ef" ChangeDateTime="09/22/2025 20:48:11">
+    <Property Name="ElementName" Value="[dbo].[UserGroupRelation].[Chat_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGroupRelation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ChatId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c93f6126-01b1-424d-9ab2-9d0de8a9d3a1" ChangeDateTime="09/22/2025 20:52:59">
+    <Property Name="ElementName" Value="[dbo].[Groups].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Group_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="74e1fd6b-4706-4acf-9e51-7d7cd4cc496f" ChangeDateTime="09/22/2025 20:53:33">
+    <Property Name="ElementName" Value="[dbo].[UserGroupRelations].[ChatId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGroupRelations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GroupId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="07ac6d49-87ab-4bdf-941f-bad181117734" ChangeDateTime="09/22/2025 21:32:47">
+    <Property Name="ElementName" Value="[dbo].[Groups].[Group_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GroupId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="559bd9a2-7b7b-45f0-ba6c-70b29ce7b893" ChangeDateTime="09/22/2025 21:36:48">
+    <Property Name="ElementName" Value="[dbo].[UserGroupRelations].[Rights]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGroupRelations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CanDeleteUsers" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="86224a36-330d-4282-bc2c-0e12be87c695" ChangeDateTime="09/29/2025 22:12:15">
+    <Property Name="ElementName" Value="[dbo].[Users_log].[object_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users_log]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="user_id" />
+  </Operation>
+</Operations>
