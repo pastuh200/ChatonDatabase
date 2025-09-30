@@ -73,6 +73,8 @@
     <Build Include="dbo\Tables\Groups.sql" />
     <Build Include="dbo\Tables\UserGroupRelations.sql" />
     <Build Include="dbo\Tables\Messages.sql" />
-    <Build Include="dbo\Tables\Users_log.sql" />
+    <Build Include="dbo\Tables\UsersLog.sql" />
+    <Build Include="dbo\Tables\trg_AfterUpdateUsers.sql" />
+    <Build Include="dbo\Tables\trg_AfterDeleteUsers.sql" />
   </ItemGroup>
 </Project>
