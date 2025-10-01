@@ -1,5 +1,5 @@
 ﻿CREATE TABLE UsersLog(
-    id INT PRIMARY KEY,
+    id INT IDENTITY(1,1) PRIMARY KEY,
     eventTime DATETIME  NOT NULL,
     executerName VARCHAR(255) NOT NULL,
     actionType VARCHAR(50) NOT NULL,
